@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Code Reviews &mdash; No Null Process 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="No Null Process 0.1 documentation" href="../index.html" />
+    <link rel="up" title="Developing Software" href="index.html" />
+    <link rel="next" title="Working on Tickets" href="tickets.html" />
+    <link rel="prev" title="Developing Software" href="index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="tickets.html" title="Working on Tickets"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Developing Software"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">No Null Process 0.1 documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Developing Software</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="code-reviews">
+<h1>Code Reviews<a class="headerlink" href="#code-reviews" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="everyone">
+<h2>Everyone<a class="headerlink" href="#everyone" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="guildelines">
+<h3>Guildelines<a class="headerlink" href="#guildelines" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly. <a class="footnote-reference" href="#thoughtbot" id="id1">[1]</a></li>
+<li>Ask questions; don&#8217;t make demands. (&#8220;What do you think about naming this :user_id?&#8221;) <a class="footnote-reference" href="#thoughtbot" id="id2">[1]</a></li>
+<li>Ask for clarification. (&#8220;I didn&#8217;t understand. Can you clarify?&#8221;)
+<a class="footnote-reference" href="#thoughtbot" id="id3">[1]</a></li>
+<li>Avoid selective ownership of code. (&#8220;mine&#8221;, &#8220;not mine&#8221;, &#8220;yours&#8221;)
+<a class="footnote-reference" href="#thoughtbot" id="id4">[1]</a></li>
+<li>Avoid using terms that could be seen as referring to personal traits. (&#8220;dumb&#8221;, &#8220;stupid&#8221;). Assume everyone is attractive, intelligent, and well-meaning. <a class="footnote-reference" href="#thoughtbot" id="id5">[1]</a></li>
+<li>Be explicit. Remember people don&#8217;t always understand your intentions online.
+<a class="footnote-reference" href="#thoughtbot" id="id6">[1]</a></li>
+<li>Be humble. (&#8220;I&#8217;m not sure - let&#8217;s look it up.&#8221;) <a class="footnote-reference" href="#thoughtbot" id="id7">[1]</a></li>
+<li>Don&#8217;t use hyperbole. (&#8220;always&#8221;, &#8220;never&#8221;, &#8220;endlessly&#8221;, &#8220;nothing&#8221;)
+<a class="footnote-reference" href="#thoughtbot" id="id8">[1]</a></li>
+<li>Don&#8217;t use sarcasm. <a class="footnote-reference" href="#thoughtbot" id="id9">[1]</a></li>
+<li>Keep it real. If emoji, animated gifs, or humor aren&#8217;t you, don&#8217;t force them. If they are, use them with aplomb. <a class="footnote-reference" href="#thoughtbot" id="id10">[1]</a></li>
+<li>Talk in person if there are too many &#8220;I didn&#8217;t understand&#8221; or &#8220;Alternative solution:&#8221; comments. Post a follow-up comment summarizing offline discussion. <a class="footnote-reference" href="#thoughtbot" id="id11">[1]</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="as-the-author">
+<h2>As the author<a class="headerlink" href="#as-the-author" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="guidelines">
+<h3>Guidelines<a class="headerlink" href="#guidelines" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Be grateful for the reviewer&#8217;s suggestions. (&#8220;Good call. I&#8217;ll make that change.&#8221;) <a class="footnote-reference" href="#thoughtbot" id="id12">[1]</a></li>
+<li>Don&#8217;t take it personally. The review is of the code, not you. <a class="footnote-reference" href="#thoughtbot" id="id13">[1]</a></li>
+<li>Explain why the code exists. (&#8220;It&#8217;s like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?&#8221;) <a class="footnote-reference" href="#thoughtbot" id="id14">[1]</a></li>
+<li>Extract some changes and refactorings into future tickets/stories.
+<a class="footnote-reference" href="#thoughtbot" id="id15">[1]</a></li>
+<li>Link to the code review from the ticket/story. (&#8220;Ready for review: <a class="reference external" href="https://github.com/organization/project/pull/1">https://github.com/organization/project/pull/1</a>&#8221;) <a class="footnote-reference" href="#thoughtbot" id="id16">[1]</a></li>
+<li>Push commits based on earlier rounds of feedback as isolated commits to the branch. Do not squash until the branch is ready to merge. Reviewers should be able to read individual updates based on their earlier feedback. <a class="footnote-reference" href="#thoughtbot" id="id17">[1]</a></li>
+<li>Seek to understand the reviewer&#8217;s perspective. <a class="footnote-reference" href="#thoughtbot" id="id18">[1]</a></li>
+<li>Try to respond to every comment. <a class="footnote-reference" href="#thoughtbot" id="id19">[1]</a></li>
+<li>Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.) tells you the test suite is green in the branch. <a class="footnote-reference" href="#thoughtbot" id="id20">[1]</a></li>
+<li>Merge once you feel confident in the code and its impact on the project. <a class="footnote-reference" href="#thoughtbot" id="id21">[1]</a></li>
+</ul>
+</div>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[ ] Ensure that your branch can be merged cleanly</li>
+<li>[ ] Ensure that all of the tests pass on your branch</li>
+<li>[ ] Ensure that your code is documented <a class="footnote-reference" href="#adroll" id="id22">[2]</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="as-the-reviewer">
+<h2>As the reviewer<a class="headerlink" href="#as-the-reviewer" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id23">
+<h3>Guildelines<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Communicate which ideas you feel strongly about and those you don&#8217;t.</li>
+<li>Identify ways to simplify the code while still solving the problem.</li>
+<li>If discussions turn too philosophical or academic, move the discussion offline to a regular Friday afternoon technique discussion. In the meantime, let the author make the final decision on alternative implementations.</li>
+<li>Offer alternative implementations, but assume the author already considered them. (&#8220;What do you think about using a custom validator here?&#8221;)</li>
+<li>Seek to understand the author&#8217;s perspective.</li>
+<li>Sign off on the pull request with a :thumbsup: or &#8220;Ready to merge&#8221; comment.</li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h3>Steps<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[ ] Understand why the code is necessary <a class="footnote-reference" href="#thoughtbot" id="id25">[1]</a></li>
+<li>[ ] Verify the pull request does what it says it does <a class="footnote-reference" href="#adroll" id="id26">[2]</a></li>
+<li>[ ] Verify test coverage and documentation <a class="footnote-reference" href="#adroll" id="id27">[2]</a></li>
+<li>[ ] Verify and run database migrations <a class="footnote-reference" href="#adroll" id="id28">[2]</a></li>
+<li>[ ] Verify code conventions, PEP8, PyChecker <a class="footnote-reference" href="#adroll" id="id29">[2]</a></li>
+<li>[ ] Run the application and validate front-end components <a class="footnote-reference" href="#adroll" id="id30">[2]</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://help.github.com/articles/using-pull-requests/">GitHub Help: Using pull requests</a></p>
+<p><a class="reference external" href="https://guides.github.com/introduction/flow/">GitHub Guides: Understanding the GitHub Flow</a></p>
+<table class="docutils footnote" frame="void" id="thoughtbot" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id2">2</a>, <a class="fn-backref" href="#id3">3</a>, <a class="fn-backref" href="#id4">4</a>, <a class="fn-backref" href="#id5">5</a>, <a class="fn-backref" href="#id6">6</a>, <a class="fn-backref" href="#id7">7</a>, <a class="fn-backref" href="#id8">8</a>, <a class="fn-backref" href="#id9">9</a>, <a class="fn-backref" href="#id10">10</a>, <a class="fn-backref" href="#id11">11</a>, <a class="fn-backref" href="#id12">12</a>, <a class="fn-backref" href="#id13">13</a>, <a class="fn-backref" href="#id14">14</a>, <a class="fn-backref" href="#id15">15</a>, <a class="fn-backref" href="#id16">16</a>, <a class="fn-backref" href="#id17">17</a>, <a class="fn-backref" href="#id18">18</a>, <a class="fn-backref" href="#id19">19</a>, <a class="fn-backref" href="#id20">20</a>, <a class="fn-backref" href="#id21">21</a>, <a class="fn-backref" href="#id25">22</a>)</em> <a class="reference external" href="https://github.com/thoughtbot/guides/tree/master/code-review">Thoughtbot Guides: Code Review</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="adroll" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[2]</td><td><em>(<a class="fn-backref" href="#id22">1</a>, <a class="fn-backref" href="#id26">2</a>, <a class="fn-backref" href="#id27">3</a>, <a class="fn-backref" href="#id28">4</a>, <a class="fn-backref" href="#id29">5</a>, <a class="fn-backref" href="#id30">6</a>)</em> Paraphrased from the AdRoll Developer Process Overview</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Code Reviews</a><ul>
+<li><a class="reference internal" href="#everyone">Everyone</a><ul>
+<li><a class="reference internal" href="#guildelines">Guildelines</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#as-the-author">As the author</a><ul>
+<li><a class="reference internal" href="#guidelines">Guidelines</a></li>
+<li><a class="reference internal" href="#steps">Steps</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#as-the-reviewer">As the reviewer</a><ul>
+<li><a class="reference internal" href="#id23">Guildelines</a></li>
+<li><a class="reference internal" href="#id24">Steps</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Developing Software</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="tickets.html"
+                        title="next chapter">Working on Tickets</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Developing/codereview.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, Anna Callahan, Stacie Seaman, Eric Allen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.3</a>
+      
+      |
+      <a href="../_sources/Developing/codereview.txt"
+          rel="nofollow">Page source</a></li>
+    </div>
+
+    
+
+    
+  </body>
+</html>
