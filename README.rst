@@ -17,14 +17,30 @@ The site is hosted on `GitHub Pages
 Contributing
 ------------
 
-No Null Process is built with `Sphinx`_. To build the
+No Null Process is built with `Sphinx <http://sphinx-doc.org/>`_. To build the
 documentation locally, run::
 
     pip install -r requirements.txt
     make html
 
-You'll only need to run ``pip install`` once. After that, it's just ``make
+You'll only need to run ``pip install`` once. On future runs, only do ``make
 html`` to re-build the documentation. The root of the documentation will be
 built in ``_build/html/index.html``.
 
-.. _Sphinx: http://sphinx-doc.org/
+Publishing to GitHub Pages
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you're a maintainer of the project on GitHub, you can publish the latest
+content on the currently checked-out branch (which should be ``master``) with::
+
+    make publish
+
+This will update the ``gh-pages`` branch on GitHub, which will update the web
+site in a few minutes.
+
+Continuing the Conversation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We have a `Slack Team <https://nonullprocess.slack.com>`_ for real-time
+conversation and coordination. If you'd like to join the conversation, email one
+of the maintainers and we'll send you an invite!
