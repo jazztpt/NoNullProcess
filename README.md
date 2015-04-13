@@ -2,6 +2,7 @@
 Basic process documents for improving diversity at your workplace.
 
 Table of contents:
+==================
 
 **Convincing Management**
 - [ ] List of research articles for managerial rationale for checklists.
