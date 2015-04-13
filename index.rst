@@ -9,8 +9,8 @@ No Null Process
 Basic process documents for improving diversity at your workplace.
 
 .. toctree::
+   :titlesonly:
 
    meetings
    Developing/index
    Interviewing/index
-

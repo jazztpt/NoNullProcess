@@ -1,62 +1,15 @@
-.. No Null Process documentation master file, created by
-   sphinx-quickstart on Mon Apr 13 09:35:02 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 No Null Process
-===========================================
+================
 
-Basic process documents for improving diversity at your workplace.
+Not having basic processes documented means you're practicing the `Null Process
+<https://kateheddleston.com/blog/the-null-process>`_. This is bad for all of
+your engineers. It particularly disadvantages minorities and other
+under-represented classes, because they have more difficulty learning unwritten
+processes from coworkers.
 
-Table of contents
------------------
-
-Convincing Management
-~~~~~~~~~~~~~~~~~~~~~
-
-[ ] List of research articles for managerial rationale for checklists.
-
-Recruiting
-~~~~~~~~~~
-
-[ ] Recruiting
-
-Interviewing
-~~~~~~~~~~~~
-
-[ ] Interviewing
-
-Onboarding
-~~~~~~~~~~
-
-[ ] Container options
-
-Developing
-~~~~~~~~~~
-
-* :doc:`Code Reviews <Developing/codereview>`
-* :doc:`Working on Tickets <Developing/tickets>`
-
-Deploying
-~~~~~~~~~
-
-[ ] Deploying to production
-
-Ideas & Meetings
-~~~~~~~~~~~~~~~~
-
-* [ ] How do ideas get promoted within our company?
-
-* [ ] How do ideas go from conception to production?
-
-* :doc:`How to have a an effective meeting </meetings>`
-
-Promoting
-~~~~~~~~~
-
-[ ] How someone is promoted to a manager role.
-
-[ ] How someone is promoted to a senior engineer.
+No Null Process is a set of basic process documents for how software is
+developed. These guidelines and checklists are inherently opinionated, so feel
+free to fork them and customize for your organization.
 
 Contributing
 ------------
@@ -69,6 +22,6 @@ documentation locally, run::
 
 You'll only need to run ``pip install`` once. After that, it's just ``make
 html`` to re-build the documentation. The root of the documentation will be
-built in ``_build/html/README.html``.
+built in ``_build/html/index.html``.
 
 .. _Sphinx: http://sphinx-doc.org/
