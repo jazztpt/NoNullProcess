@@ -29,7 +29,7 @@ Best Practices for Onboarding
 * Engage stakeholders in planning.
 * Include key stakeholder meetings as part of the program.
 * Be crystal clear with new employees in terms of:
- * Objectives.
- * Timelines.
- * Roles.
- * Responsibilities
+ + Objectives
+ + Timelines
+ + Roles
+ + Responsibilities

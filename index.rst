@@ -12,6 +12,7 @@ Basic process documents for improving diversity at your workplace.
    :titlesonly:
 
    Interviewing/index
+   Onboarding/index
    Developing/index
    meetings
    Promoting/index
