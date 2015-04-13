@@ -41,11 +41,11 @@ Deploying
 Ideas & Meetings
 ~~~~~~~~~~~~~~~~
 
-[ ] How do ideas get promoted within our company?
+* [ ] How do ideas get promoted within our company?
 
-[ ] How do ideas go from conception to production?
+* [ ] How do ideas go from conception to production?
 
-[ ] How to have a meeting?
+* :doc:`How to have a an effective meeting </meetings>`
 
 Promoting
 ~~~~~~~~~
