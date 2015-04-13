@@ -41,11 +41,11 @@ Deploying
 Ideas & Meetings
 ~~~~~~~~~~~~~~~~
 
-[ ] How do ideas get promoted within our company?
+* [ ] How do ideas get promoted within our company?
 
-[ ] How do ideas go from conception to production?
+* [ ] How do ideas go from conception to production?
 
-[ ] How to have a meeting?
+* :doc:`How to have a an effective meeting </meetings>`
 
 Promoting
 ~~~~~~~~~
@@ -54,3 +54,17 @@ Promoting
 
 [ ] How someone is promoted to a senior engineer.
 
+Contributing
+------------
+
+No Null Process is built with `Sphinx`_. To build the
+documentation locally, run::
+
+    pip install -r requirements.txt
+    make html
+
+You'll only need to run ``pip install`` once. After that, it's just ``make
+html`` to re-build the documentation. The root of the documentation will be
+built in ``_build/html/README.html``.
+
+.. _Sphinx: http://sphinx-doc.org/
