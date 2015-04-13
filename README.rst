@@ -57,7 +57,7 @@ Promoting
 Contributing
 ------------
 
-No Null Process is built with [Sphinx](http://sphinx-doc.org/). To build the
+No Null Process is built with `Sphinx`_. To build the
 documentation locally, run::
 
     pip install -r requirements.txt
@@ -66,3 +66,5 @@ documentation locally, run::
 You'll only need to run ``pip install`` once. After that, it's just ``make
 html`` to re-build the documentation. The root of the documentation will be
 built in ``_build/html/README.html``.
+
+.. _Sphinx: http://sphinx-doc.org/
