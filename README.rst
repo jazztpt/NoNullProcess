@@ -8,9 +8,45 @@ No Null Process
 
 Basic process documents for improving diversity at your workplace.
 
-+ [  ] List of research articles for managerial rationale for checklists.
-+ [  ] How someone is promoted to a people manager role?
-+ [  ] How someone can become a senior engineer.
-+ [  ] How do ideas get promoted within our company?
-+ [  ] How do ideas go from conception to production?
-+ [  ] How to have a meeting?
+Table of contents
+-----------------
+
+Convincing Management
+~~~~~~~~~~~~~~~~~~~~~
+
+[ ] List of research articles for managerial rationale for checklists.
+
+Recruiting
+~~~~~~~~~~
+
+[ ] Recruiting
+
+Interviewing
+~~~~~~~~~~~~
+
+[ ] Interviewing
+
+Onboarding
+~~~~~~~~~~
+
+[ ] Container options
+
+Deploying
+~~~~~~~~~
+
+[ ] Code reviews
+[ ] Deploying to production
+
+Ideas & Meetings
+~~~~~~~~~~~~~~~~
+
+[ ] How do ideas get promoted within our company?
+[ ] How do ideas go from conception to production?
+[ ] How to have a meeting?
+
+Promoting
+~~~~~~~~~
+
+[ ] How someone is promoted to a manager role.
+[ ] How someone is promoted to a senior engineer.
+
