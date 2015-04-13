@@ -31,10 +31,13 @@ Onboarding
 
 [ ] Container options
 
+Developing
+~~~~~~~~~~
+
+* :doc:`Code Reviews <Developing/codereview>`
+
 Deploying
 ~~~~~~~~~
-
-[ ] Code reviews
 
 [ ] Deploying to production
 
