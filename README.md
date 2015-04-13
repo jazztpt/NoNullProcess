@@ -5,5 +5,5 @@ Basic process documents for improving diversity at your workplace.
 - [ ] How someone is promoted to a people manager role?
 - [ ] How someone can become a senior engineer.
 - [ ] How do ideas get promoted within our company?
-- [ ] What is the process for
-- [ ] How to have a meeting.
+- [ ] How do ideas go from conception to production? 
+- [ ] How to have a meeting?
