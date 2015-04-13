@@ -49,8 +49,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'No Null Process'
-copyright = u'2015, Anna Callahan, Stacie Seaman, Eric Allen'
-author = u'Anna Callahan, Stacie Seaman, Eric Allen'
+copyright = u'2015, Anna Callahan, Stacie Seaman, Eric Allen, Sylvain Bellemare'
+author = u'Anna Callahan, Stacie Seaman, Eric Allen, Sylvain Bellemare'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
