@@ -6,6 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
+CURRENT_BRANCH = $(shell git rev-parse --abbrev-ref HEAD)
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
@@ -190,3 +191,12 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+publish: html
+	@git checkout gh-pages
+	@rsync -r _build/html/ .
+	@rm .buildinfo
+	@git add .
+	@git commit -m "update docs from master" || :
+	@git push origin gh-pages
+	@git checkout $(CURRENT_BRANCH)
