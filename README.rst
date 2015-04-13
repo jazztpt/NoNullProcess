@@ -35,6 +35,7 @@ Developing
 ~~~~~~~~~~
 
 * :doc:`Code Reviews <Developing/codereview>`
+* :doc:`Working on Tickets <Developing/tickets>`
 
 Deploying
 ~~~~~~~~~
