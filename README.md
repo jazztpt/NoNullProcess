@@ -24,7 +24,7 @@ Table of contents:
 - [ ] How do ideas go from conception to production? 
 - [ ] How to have a meeting?
 
-Promoting
+**Promoting**
 - [ ] How someone is promoted to a manager role.
 - [ ] How someone is promoted to a senior engineer.
 
