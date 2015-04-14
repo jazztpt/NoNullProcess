@@ -13,7 +13,7 @@ staff. Not to mention, potential for loss of customers or loss of productivity
 on team-based projects, due to understaffing or poor customer service during a 
 time of turnover. These costs can easily go well beyond the 50% of annual salary 
 calculation if they are high-level or highly specialized employees. Here's an 
-employee turnover [calculator](https://bonus.ly/cost-of-employee-turnover-calculator).
+employee turnover calculator at https://bonus.ly/cost-of-employee-turnover-calculator
 
 Investing in bringing new employees up to speed is a smart way to  get the most 
 out your recruiting and hiring efforts. Onboarding is a process that every 
@@ -34,8 +34,7 @@ Best Practices for Onboarding
 * Be sure your program is consistently implemented.
 * Ensure that the program is monitored over time.
 * Use technology to facilitate the process.
-* Use milestones, such as 30, 60, 90 and 120 days on the job 
-to check in on employee progress.
+* Use milestones, such as 30, 60, 90 and 120 days on the job to check in on employee progress.
 * Engage stakeholders in planning.
 * Include key stakeholder meetings as part of the program.
 * Be crystal clear with new employees in terms of:
