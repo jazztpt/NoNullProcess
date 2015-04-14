@@ -37,7 +37,7 @@ Best Practices for Onboarding
 * Use milestones, such as 30, 60, 90 and 120 days on the job to check in on employee progress.
 * Engage stakeholders in planning.
 * Include key stakeholder meetings as part of the program.
-* Be crystal clear with new employees in terms of:
+* Be crystal clear with new employees about your expectations regarding:
  + Objectives
  + Timelines
  + Roles
