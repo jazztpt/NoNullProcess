@@ -2,12 +2,21 @@ Why Should Startups have an Onboarding Process
 ==============================================
 
 Tech Startup companies are intrinsically focused on innovation. In order to
-innovate rapidly,  startups needs to identify which company functions should be
+innovate rapidly,  startups need to identify which company functions should be
 captured as written processes so creative energy can be focused on creating
-products that will drive your success. A good example of a process that every
-startup should create once and then implement consistently is Onboarding.
+products that will drive your success. Every time a new employee is needed, 
+it costs the organization hiring dividends. Between recruiting, interviewing, 
+training, productivity losses, etc; it costs approximately 30% to 50% of that 
+employee’s annual salary to replace them.  Some of the hidden costs of turnover 
+include lower productivity, training, lost knowlege, and overworked remaining 
+staff. Not to mention, potential for loss of customers or loss of productivity 
+on team-based projects, due to understaffing or poor customer service during a 
+time of turnover. These costs can easily go well beyond the 50% of annual salary 
+calculation if they are high-level or highly specialized employees.
 
-Onboarding is the process by which new hires get adjusted to the social and
+A good example of a process that every startup should create once and then 
+implement consistently is Onboarding. Onboarding is the process by which new 
+hires get adjusted to the social and
 performance aspects of their jobs quickly and smoothly, and learn the attitudes,
 knowledge, skills, and behaviors required to function effectively within an
 organization.The lack of process for Onboarding means that every new hire has a
