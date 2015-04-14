@@ -16,13 +16,13 @@ calculation if they are high-level or highly specialized employees. Here's an
 employee turnover calculator at https://bonus.ly/cost-of-employee-turnover-calculator
 
 Investing in bringing new employees up to speed is a smart way to  get the most 
-out your recruiting and hiring efforts. Onboarding is a process that every 
-startup should create once and then implement consistently. Onboarding ensures 
-that new hires get adjusted to the social and performance aspects of their jobs 
-quickly and smoothly, and learn the attitudes, knowledge, skills, and behaviors 
-required to function effectively within the company. The lack of process for 
-Onboarding means that every new hire has a different experience and the probability 
-of losing that employee within the first 90 days increases dramatically.
+out of your recruiting and hiring efforts. Onboarding ensures that new hires get 
+adjusted to the social and performance aspects of their jobs  quickly and smoothly, 
+and learn the attitudes, knowledge, skills, and behaviors required to function 
+effectively within the company. Onboarding is a process that every startup should 
+create once and then implement consistently. The lack of an Onboarding process means 
+that every new hire has a different experience and the probability of losing that 
+employee within the first 90 days increases dramatically.
 
 Best Practices for Onboarding
 
