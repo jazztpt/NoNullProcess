@@ -44,3 +44,8 @@ Continuing the Conversation
 We have a `Slack Team <https://nonullprocess.slack.com>`_ for real-time
 conversation and coordination. If you'd like to join the conversation, email one
 of the maintainers and we'll send you an invite!
+
+License
+-------
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
